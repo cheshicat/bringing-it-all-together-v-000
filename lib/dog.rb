@@ -67,7 +67,9 @@ class Dog
       AND breed = ?
       LIMIT 1
     SQL
-    
+
+    dog = DB[:conn].execute(sql, name, breed)
+
   end
 
   def self.new_from_db(row)
