@@ -40,7 +40,7 @@ class Dog
     self
   end
 
-  def self.create(id:, name:, breed:)
+  def self.create(id: nil, name:, breed:)
 
   end
 
